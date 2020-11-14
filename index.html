@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--padrão de caracteres acentuados-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX CLONE</title>
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/resposive.css">
+
+    <!--owl css - Arquivos externos-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--Fim da adição-->
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Nada pode impedir o político sem escrúpulos Frank Underwood de consquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível </p>
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=kasvV-XyzqU" target="blank">
+                        <button href= role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                        </button>
+                    </a>
+                    <a href="https://www.netflix.com/br/title/70178217" target="blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
+                </div>
+            </div> 
+        </div>
+    </main>
+
+    <!--Preparando o Carrosel-->
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <a href="https://www.netflix.com/br/title/80186863" target="blank">
+                <div class="item">
+                    <img class="box-filme" src="imagens/mini1.jpg" alt="Umbrela Academy" srcset="">
+                </div>
+            </a>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini2.jpg" alt="Star Wars - A ascensão Skywalker" srcset="">
+            </div>
+            <a href="https://www.netflix.com/br/title/70297439" target="blank">
+                <div class="item">
+                    <img class="box-filme" src="imagens/mini3.jpg" alt="Pokémon" srcset="">
+                </div>
+            </a>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini4.jpg" alt="Capitão América - Guerra Cívil" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini5.jpg" alt="O Hobbit - A batalha dos cinco exércitos" srcset="">
+            </div>
+            <a href="https://www.netflix.com/br-en/title/70143836" target="blank">
+                <div class="item">
+                    <img class="box-filme" src="imagens/mini6.jpg" alt="Breaking Bad - A química do mal" srcset="">
+                </div>
+            </a>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini7.jpg" alt="Dr. House" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini8.jpg" alt="Sobrenatural" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini9.jpg" alt="Smallville - as Aventuras do Superboy" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="imagens/mini10.jpg" alt="Vingadores - Guerra Infinita" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <!--Adição do JS - carregar sempre no final para evitar erros-->
+    <script src="https://kit.fontawesome.com/4a926951e9.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--Fim da adição-->
+
+</body>
+</html>
